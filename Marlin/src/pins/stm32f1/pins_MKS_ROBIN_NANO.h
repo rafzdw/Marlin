@@ -64,7 +64,7 @@
 
 
 #ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN                    PA4   // MT_DET
+  #define FIL_RUNOUT_PIN                    PA2   // MT_DET
 #endif
 
 //
@@ -115,7 +115,7 @@
 //
 // Misc. Functions
 //
-#define POWER_LOSS_PIN                      PA2   // PW_DET
+// #define POWER_LOSS_PIN                      PA2   // PW_DET
 #define PS_ON_PIN                           PA3   // PW_OFF
 
 #define LED_PIN                             PB2
