@@ -488,6 +488,10 @@
   #define DEFAULT_Ki 0.51
   #define DEFAULT_Kd 51.99
 
+  // Saphire Pro direct
+  #define DEFAULT_Kp 8.80
+  #define DEFAULT_Ki 0.37
+  #define DEFAULT_Kd 51.68
 
 #endif // PIDTEMP
 
@@ -945,7 +949,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { 0, -42, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { 0, -42, -1.2 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
